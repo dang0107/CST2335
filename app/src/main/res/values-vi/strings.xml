@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab1</string>
+    <string name="app_name">My Application</string>
     <string name="hello_message">Xin Chao!</string>
     <string name="ButtonText">Tao la cai nut</string>
+    <string name="login_name">Ten dang nhap</string>
+    <string name="password">Mat khau</string>
 </resources>

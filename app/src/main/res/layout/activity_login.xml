@@ -20,6 +20,7 @@
 
         android:layout_height="wrap_content"
         android:hint="login name"
+        android:text="@string/login_name"
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"/>
 
@@ -27,13 +28,14 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="password" />
+        android:text="@string/password" />
 
     <EditText
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:text="@string/password"/>
 
     <ImageView
         android:id="@+id/imageView"
