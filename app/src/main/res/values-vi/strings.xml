@@ -5,4 +5,11 @@
     <string name="ButtonText">Tao la cai nut</string>
     <string name="login_name">Ten dang nhap</string>
     <string name="password">Mat khau</string>
+    <string name="radiobutton">Nut</string>
+    <string name="checkbox">Danh dau</string>
+    <string name="swtich">Cai nay dung de lam gi?</string>
+    <string name="log_in">Dang nhap</string>
+    <string name="dialog">Ban co muon ket thuc hoat dong nay khong?</string>
+    <string name="Ok">Co</string>
+    <string name="Cancel">Khong</string>
 </resources>
