@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -22,11 +23,23 @@ public class StartActivity extends Activity {
 
         final Context ctx = this;
         final Button button = findViewById(R.id.button);
+        final Button startchatbt = findViewById(R.id.startchat);
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ctx, ListItemsActivity.class);
+                startActivityForResult(intent, 50);
+
+            }
+        });
+
+        startchatbt.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+                Intent intent = new Intent(ctx, ChatWindow.class);
                 startActivityForResult(intent, 50);
 
             }

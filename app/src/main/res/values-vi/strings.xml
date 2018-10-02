@@ -12,4 +12,6 @@
     <string name="dialog">Ban co muon ket thuc hoat dong nay khong?</string>
     <string name="Ok">Co</string>
     <string name="Cancel">Khong</string>
+    <string name="chatview">Gui</string>
+    <string name="startchat">Bat dau tro chuyen</string>
 </resources>

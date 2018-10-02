@@ -13,4 +13,6 @@
     <string name="message">Message</string>
     <string name="Ok">Yes</string>
     <string name="Cancel">Cancel</string>
+    <string name="chatview">Send</string>
+    <string name="startchat">Start Chat</string>
 </resources>
